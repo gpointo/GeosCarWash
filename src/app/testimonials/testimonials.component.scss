@@ -1,0 +1,22 @@
+::ng-deep.nav-wrapper{
+    height: 60px !important;
+}
+::ng-deep#navigation-logo {
+
+    width: 25% !important;
+}
+.wrapper{
+    margin-top: 350px;
+    margin-bottom: 200px;
+}
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 65px;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 65px;
+}

@@ -1,0 +1,108 @@
+.page-wrapper {
+    width: 100%;
+    margin-top: 9%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: solid #000 2px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.sizing{
+    resize: none;
+}
+::ng-deep.nav-wrapper{
+    height: 60px !important;
+}
+@media only screen and  (min-width: 414px) {
+::ng-deep#navigation-logo {
+
+    width: 22% !important;
+}
+}
+@media only screen and  (max-width: 413px) {
+    ::ng-deep#navigation-logo {
+    
+        width: 22% !important;
+    }
+    }
+::ng-deep.mat-input-element {
+    caret-color: #e6b264 !important;
+}
+::ng-deep.mat-form-field.mat-focused.mat-form-field-label {
+    caret-color: #e6b264 !important;
+}
+.btn-color{
+    background-color: #38568C;
+    color:#fff;
+    float:right;
+    
+}
+.title {
+    font-size: 36px;
+    margin-top: 6%;
+    line-height: 30px;
+}
+.align{
+    text-align: center;
+}
+.lg-input-padding{
+    padding:3%;
+}
+.x-padding-sm{
+    margin-left: -15px;
+}
+.x-padding-md{
+    padding-left:2%;
+}
+
+
+@media only screen and (max-height: 736px) and (max-width: 414px) {
+    .page-wrapper {
+
+        margin-bottom: -82px;
+    }
+    ::ng-deep.mat-form-field {
+        font-size: 11px !important;
+
+    }
+    ::ng-deep#navigation-logo {
+        width: 27% !important;
+    }
+  }
+
+
+    @media only screen and  (max-height: 667px) and  (max-width: 375px) {
+        ::ng-deep.mat-form-field {
+            font-size: 9px !important;
+    
+        }
+        ::ng-deep#navigation-logo {
+            width: 30% !important;
+        }
+      }
+      @media only screen and (max-height: 823px) and (max-width: 411px) {
+        ::ng-deep#navigation-logo {
+            width: 27% !important;
+        }
+    }
+    @media only screen and (max-height: 812px) and (max-width: 375px){
+        ::ng-deep#navigation-logo {
+            width: 30% !important;
+        }
+      }
+      @media only screen and (max-height: 640px) and (max-width: 360px) {
+        ::ng-deep.mat-form-field {
+            font-size: 9px !important;
+    
+        }
+        ::ng-deep#navigation-logo {
+            width: 31% !important;
+        }
+    }
+    @media only screen and (max-height: 568px) and (max-width: 320px) {
+        ::ng-deep#navigation-logo {
+            width: 35% !important;
+        }
+      }
+      

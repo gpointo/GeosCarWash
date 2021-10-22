@@ -1,0 +1,8 @@
+{
+  "Template": {
+    "TemplateName": "Power Wash Template",
+    "SubjectPart": "New PowerWash Estimate Request",
+    "HtmlPart": "<h1>Hello Gerardo,</h1><p>There is a new estimate request.</p> <p><b>Customer Name:</b> {{name}}</p><p><b>Email:</b> {{email}}</p> <p><b>Phone Number:</b> {{number}}</p><p><b>Address:</b> {{address}}</p><p><b>Preferred Call Time:</b> {{preferedCallTime}}</p><p><b>Square Foot:</b> {{squarefoot}}</p><p><b>Description:</b> {{description}}</p>"
+
+  }
+}

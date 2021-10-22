@@ -1,0 +1,9 @@
+{
+    "Source":"Mary Major <giovanni.ortiz@gmail.com>",
+    "Template": "PowerWashTemplate",
+    "Destination": {
+      "ToAddresses": [ "giovanni.ortiz@gmail.com","ortiz.giovanni.ortiz@gmail.com"
+      ]
+    },
+    "TemplateData": "{ \"name\":\"Alejandro\", \"email\": \"alligator@gmail.com\", \"number\": \"7327428422\", \"address\": \"196 Water Street\", \"preferedCallTime\": \"Afternoon\", \"squarefoot\": \"100\", \"description\": \"Big House\" }"
+  }

@@ -1,0 +1,52 @@
+<div class="col-12 x-padding-sm align">
+    <div class="title">Estimate Request Form</div>
+</div>
+<div class=" page-wrapper">
+    <form [formGroup]="formdata" (ngSubmit)="sendEmail(f) " #f="ngForm">
+<fieldset >
+
+    <div class="col-12 x-padding-md">Please Use this form to submit a request. We will contact you at or as close to your preferred time as possible.</div>
+    <mat-form-field class="lg-input-padding col-4">
+        <input matInput
+               placeholder="Full Name"
+               formControlName="name" (blur)="onTouched()">
+    </mat-form-field>
+    <mat-form-field class="lg-input-padding col-4">
+        <input matInput
+               placeholder="Phone Number"
+               formControlName="number" (blur)="onTouched()">
+    </mat-form-field>
+<mat-form-field class="lg-input-padding col-4">
+    <input matInput
+           placeholder="Email Address"
+           formControlName="email" (blur)="onTouched()">
+</mat-form-field>
+<mat-form-field class="lg-input-padding col-4">
+    <input matInput
+           placeholder="Preferred call time"
+           formControlName="preferedCallTime" (blur)="onTouched()">
+</mat-form-field>
+<mat-form-field class="lg-input-padding col-4">
+    <input matInput
+           placeholder="Square Foot Estimate"
+           formControlName="squarefoot" (blur)="onTouched()">
+</mat-form-field>
+<mat-form-field class="lg-input-padding col-4">
+    <input matInput
+           placeholder="Home Address"
+           formControlName="address" (blur)="onTouched()">
+</mat-form-field>
+<mat-form-field class="lg-input-padding col-12">
+    <textarea rows="6" matInput class="sizing"
+           placeholder="Description"
+           formControlName="description" (blur)="onTouched()"></textarea>
+</mat-form-field>
+<button mat-raised-button class="btn-color"
+type="submit">
+Submit
+</button>
+</fieldset>
+</form>
+
+</div>
+<ng-snotify class="material"></ng-snotify>

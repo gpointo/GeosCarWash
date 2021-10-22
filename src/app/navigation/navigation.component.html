@@ -1,0 +1,96 @@
+<!--Beginning of header-->
+<div id="nav-head" class="navigation-wrapper">
+  
+
+        <!--Logo-->
+        <div id="logo">
+          
+          <img
+            src="assets/images/logo-page-top.png"
+            id="navigation-logo"
+            alt="Landing Page"
+          />
+         
+        </div>
+        <!--End of Logo-->
+    
+ 
+        <!--Main Navigation-->
+        <div class="nav-wrapper">
+          <ul class="navigation">
+            <li class="nav-item filler">
+              <p>Space filler</p>
+            </li>           
+            <li class="nav-item">
+              <a 
+                routerLink="/Home"
+                (click)="getActiveTab('home')"
+                [class.active]="activetab === 'home'"
+                class="gradient-text"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+                <a
+                  routerLink="/Pricing"
+                  (click)="getActiveTab('pricing')"
+                  [class.active]="activetab === 'pricing'"
+                  class="gradient-text"
+                  >Estimates</a
+                >
+              </li>
+            <li class="nav-item">
+              <a
+                routerLink="/About"
+                (click)="getActiveTab('about')"
+                [class.active]="activetab === 'about'"
+                class="gradient-text"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                routerLink="/Testimonials"
+                (click)="getActiveTab('testimonials')"
+                [class.active]="activetab === 'testimonials'"
+                class="gradient-text"
+                >Testimonials</a
+              >
+            </li>
+          </ul>
+  
+          <div class="burger slideshowIcon" #ham (click)=menuToggle(ham,cheese)  >
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+  
+            <div class="mini-menuToggle " #cheese>
+          
+
+              <ul class="mini-menu ">
+                <a class="item"
+                routerLink="/Home"
+                (click)="getActiveTab('home')"
+                [class.active]="activetab === 'home'"><li>Home</li></a>
+                <a class="item" 
+                routerLink="/Pricing"
+                (click)="getActiveTab('pricing')"
+                [class.active]="activetab === 'pricing'"><li>Estimates</li></a>
+                <a class="item" 
+                routerLink="/About"
+                (click)="getActiveTab('about')"
+                [class.active]="activetab === 'about'"><li>About</li></a>
+                <a  class="item" 
+                routerLink="/Testimonials"
+                (click)="getActiveTab('testimonials')"
+                [class.active]="activetab === 'testimonials'"><li>Testimonials</li></a>
+              </ul>
+            </div>
+
+          </div>
+
+  </div>
+
+  <!--End of Header-->
+  
